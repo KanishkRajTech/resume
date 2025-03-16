@@ -1,0 +1,212 @@
+%-------------------------
+% Resume in LaTeX
+% Author: Kanishk Raj
+% Based on: https://github.com/KanishkRajTech/resume/
+% License: MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape KANISHK RAJ} \\ \vspace{1pt}
+    \small \href{mailto:kanishkraj600@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kanishkraj600@gmail.com}} ~ 
+    \href{tel:+918561199005}{ \raisebox{-0.1\height}\faPhone\ \underline{+91 85611 99005}} ~
+    \href{https://www.linkedin.com/in/your-linkedin}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{LinkedIn}} ~
+    \href{https://github.com/KanishkRajTech}{\raisebox{-0.2\height}\faGithub\ \underline{GitHub}} ~
+    \vspace{-8pt}
+\end{center}
+\vspace{0.5mm}
+
+%-----------PROFILE-----------
+\section{PROFILE}
+Aspiring software engineer with a passion for building scalable and efficient solutions. Skilled in full-stack development and problem-solving, with a strong foundation in computer science principles. Seeking opportunities to contribute to innovative projects and grow as a professional.
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Example, City}{Aug 2020 – May 2024}
+      {Bachelor of Science in Computer Science. \textbf{CGPA: 3.8}}{}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Tech Solutions Inc.}{Jun 2023 – Aug 2023}
+      {Software Engineering Intern}{}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained web applications using modern frameworks and tools.}
+        \resumeItem{Collaborated with cross-functional teams to deliver high-quality software solutions.}
+      \resumeItemListEnd
+      \resumeItemListStart
+        \resumeItem{\textbf{\href{https://example.com}{\raisebox{-0.1\height}\faExternalLink\ Project Alpha:}} A web-based platform for managing tasks and projects.}
+        \resumeItem{\textbf{\href{https://example.com}{\raisebox{-0.1\height}\faExternalLink\ Project Beta:}} A mobile app for tracking fitness activities.}
+        \resumeItem{\textbf{Tech Stack:} React.js, Node.js, MongoDB, Tailwind CSS}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {E-Commerce Platform}{2023}
+      {Full-Stack Web Application}{}
+      \resumeItemListStart
+        \resumeItem{Developed an e-commerce platform with user authentication, product management, and payment integration.}
+        \resumeItem{\textbf{Tech Stack:} React.js, Express.js, MongoDB, Stripe API}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{TECHNICAL SKILLS}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{\textbf{Languages:} JavaScript, Python, Java, C++}
+        \resumeItem{\textbf{Frameworks \& Libraries:} React.js, Node.js, Express.js, Django}
+        \resumeItem{\textbf{Tools:} Git, Docker, VS Code, Postman}
+        \resumeItem{\textbf{Core Concepts:} Data Structures, Algorithms, OOP, REST APIs}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EXTRACURRICULAR ACTIVITIES-----------
+\section{EXTRACURRICULAR ACTIVITIES}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Coding Club President}{Sep 2021 – May 2023}
+      {University of Example}{}
+      \resumeItemListStart
+        \resumeItem{Organized coding competitions and workshops to promote technical skills among students.}
+        \resumeItem{Managed a team of 10 members to execute club activities and events.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{ACHIEVEMENTS}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Hackathon Winner}{Oct 2023}
+      {CodeFest 2023}{}
+      \resumeItemListStart
+        \resumeItem{Won first place in a 24-hour hackathon for developing a real-time collaboration tool.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Dean's List}{2021 – 2023}
+      {University of Example}{}
+      \resumeItemListStart
+        \resumeItem{Achieved Dean's List recognition for academic excellence in three consecutive semesters.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ADDITIONAL-----------
+\section{ADDITIONAL}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{100+ problems solved on coding platforms such as LeetCode and HackerRank.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
