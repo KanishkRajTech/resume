@@ -25,5 +25,5 @@ A clean and professional LaTeX resume template designed for students and profess
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/KanishkRajTech/latex-resume-template.git
+   git clone https://github.com/KanishkRajTech/resume/latex-resume-template.git
    cd latex-resume-template
