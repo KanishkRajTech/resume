@@ -27,3 +27,7 @@ A clean and professional LaTeX resume template designed for students and profess
    ```bash
    git clone https://github.com/KanishkRajTech/resume/latex-resume-template.git
    cd latex-resume-template
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
